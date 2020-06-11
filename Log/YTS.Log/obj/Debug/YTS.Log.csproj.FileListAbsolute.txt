@@ -1,0 +1,11 @@
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\bin\Debug\YTS.Log.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\bin\Debug\YTS.Log.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\bin\Debug\YTS.Log.dll.CodeAnalysisLog.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\bin\Debug\YTS.Log.dll.lastcodeanalysissucceeded
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\bin\Debug\log4net.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\bin\Debug\log4net.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\obj\Debug\YTS.Log.csproj.CopyComplete
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\obj\Debug\YTS.Log.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\obj\Debug\YTS.Log.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\obj\Debug\YTS.Log.csprojAssemblyReference.cache
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Log\YTS.Log\obj\Debug\YTS.Log.csproj.CoreCompileInputs.cache

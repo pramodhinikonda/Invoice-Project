@@ -1,0 +1,264 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C62CC7FF-5AC5-4953-9FDD-BFF274A08124}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YTS.Web</RootNamespace>
+    <AssemblyName>YTS.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>3.4</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ng-invoice\src\app\modules\contact\components\contact-save\contact-save.component.css" />
+    <Content Include="ng-invoice\src\app\modules\contact\components\contact-save\contact-save.component.html" />
+    <Content Include="ng-invoice\src\app\modules\contact\components\contact-view\contact-view.component.css" />
+    <Content Include="ng-invoice\src\app\modules\contact\components\contact-view\contact-view.component.html" />
+    <Content Include="ng-invoice\src\app\modules\invoice\components\invoice-save\invoice-save.component.css" />
+    <Content Include="ng-invoice\src\app\modules\invoice\components\invoice-save\invoice-save.component.html" />
+    <Content Include="ng-invoice\src\app\modules\invoice\components\invoice-view\invoice-view.component.css" />
+    <Content Include="ng-invoice\src\app\modules\invoice\components\invoice-view\invoice-view.component.html" />
+    <Content Include="ng-invoice\src\app\modules\login\components\login-view\login-view.component.css" />
+    <Content Include="ng-invoice\src\app\modules\login\components\login-view\login-view.component.html" />
+    <Content Include="ng-invoice\src\app\modules\salesperson\components\salesperson-save\salesperson-save.component.css" />
+    <Content Include="ng-invoice\src\app\modules\salesperson\components\salesperson-save\salesperson-save.component.html" />
+    <Content Include="ng-invoice\src\app\modules\salesperson\components\salesperson-view\salesperson-view.component.css" />
+    <Content Include="ng-invoice\src\app\modules\salesperson\components\salesperson-view\salesperson-view.component.html" />
+    <Content Include="ng-invoice\src\app\modules\unit\components\unit-save\unit-save.component.css" />
+    <Content Include="ng-invoice\src\app\modules\unit\components\unit-save\unit-save.component.html" />
+    <Content Include="ng-invoice\src\app\shared\modules\layout\components\content\app.component.html" />
+    <Content Include="ng-invoice\src\app\modules\dashboard\components\dashboard-view\dashboard-view.component.css" />
+    <Content Include="ng-invoice\src\app\modules\dashboard\components\dashboard-view\dashboard-view.component.html" />
+    <Content Include="ng-invoice\src\app\modules\unit\components\unit-view\unit-view.component.css" />
+    <Content Include="ng-invoice\src\app\modules\unit\components\unit-view\unit-view.component.html" />
+    <Content Include="ng-invoice\src\app\shared\modules\layout\components\footer\footer.component.css" />
+    <Content Include="ng-invoice\src\app\shared\modules\layout\components\footer\footer.component.html" />
+    <Content Include="ng-invoice\src\app\shared\modules\layout\components\side-nav\side-nav.component.html" />
+    <Content Include="ng-invoice\src\app\shared\modules\layout\components\top-nav\top-nav.component.html" />
+    <Content Include="ng-invoice\src\app\shared\modules\exception\components\exception-handler\exception-handler.component.css" />
+    <Content Include="ng-invoice\src\app\shared\modules\exception\components\exception-handler\exception-handler.component.html" />
+    <Content Include="ng-invoice\src\assets\css\animate.css" />
+    <Content Include="ng-invoice\src\assets\css\datatables\datatables.min.css" />
+    <Content Include="ng-invoice\src\assets\css\images\3.png" />
+    <Content Include="ng-invoice\src\assets\css\images\4.png" />
+    <Content Include="ng-invoice\src\assets\css\images\header-profile-skin-1.png" />
+    <Content Include="ng-invoice\src\assets\css\images\header-profile-skin-2.png" />
+    <Content Include="ng-invoice\src\assets\css\images\header-profile-skin-3.png" />
+    <Content Include="ng-invoice\src\assets\css\images\profile_small.jpg" />
+    <Content Include="ng-invoice\src\assets\css\images\shattered.png" />
+    <Content Include="ng-invoice\src\assets\css\theme.css" />
+    <Content Include="ng-invoice\src\assets\css\images\header-profile.png" />
+    <Content Include="ng-invoice\src\assets\js\datatables\datatables.min.js" />
+    <Content Include="ng-invoice\src\assets\js\datatables\pdfmake.min.js" />
+    <Content Include="ng-invoice\src\assets\js\datatables\vfs_fonts.js" />
+    <Content Include="ng-invoice\src\assets\js\pace.min.js" />
+    <Content Include="ng-invoice\src\assets\js\theme.js" />
+    <Content Include="ng-invoice\src\favicon.ico" />
+    <Content Include="ng-invoice\src\index.html" />
+    <Content Include="ng-invoice\src\karma.conf.js" />
+    <Content Include="ng-invoice\src\assets\css\styles.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ng-invoice\.editorconfig" />
+    <Content Include="ng-invoice\.tfignore" />
+    <Content Include="ng-invoice\angular.json" />
+    <Content Include="ng-invoice\package.json" />
+    <Content Include="ng-invoice\src\browserslist" />
+    <Content Include="ng-invoice\src\tsconfig.app.json" />
+    <Content Include="ng-invoice\src\tsconfig.spec.json" />
+    <Content Include="ng-invoice\src\tslint.json" />
+    <Content Include="ng-invoice\tsconfig.json" />
+    <Content Include="ng-invoice\tslint.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\contact\components\contact-save\contact-save.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\contact\components\contact-view\contact-view.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\contact\contact-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\contact\contact.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\contact\services\contact.model.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\contact\services\contact.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\invoice\components\invoice-save\invoice-save.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\invoice\components\invoice-view\invoice-view.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\invoice\invoice-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\invoice\invoice.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\invoice\services\invoice.model.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\invoice\services\invoice.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\login\components\login-view\login-view.component.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\login\components\login-view\login-view.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\login\login-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\login\login.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\salesperson\components\salesperson-save\salesperson-save.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\salesperson\components\salesperson-view\salesperson-view.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\salesperson\salesperson-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\salesperson\salesperson.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\salesperson\services\salesperson.model.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\salesperson\services\salesperson.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\unit\components\unit-save\unit-save.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\unit\services\unit.model.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\unit\services\unit.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\controls\cell-renderer\cell-renderer.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\controls\cell-renderer\numeric-editor.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\models\common.model.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\app-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\content\app.component.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\content\app.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\app.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\dashboard\components\dashboard-view\dashboard-view.component.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\dashboard\components\dashboard-view\dashboard-view.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\dashboard\dashboard-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\dashboard\dashboard.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\unit\components\unit-view\unit-view.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\unit\unit-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\modules\unit\unit.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\footer\footer.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\side-nav\side-nav.component.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\side-nav\side-nav.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\top-nav\top-nav.component.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\components\top-nav\top-nav.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\controls\datatable\datatable.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\controls\datatable\directives\datatable.directive.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\interceptors\auth.interceptor.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\interceptors\index.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\models\auth.model.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\components\exception-handler\exception-handler.component.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\components\exception-handler\exception-handler.component.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\exception-routing.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\exception.module.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\exception.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\exception.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\exception\handler\app.exception.handler.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\services\authentication.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\logger\console-logger.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\logger\logger.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\logger\logger.service.spec.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\logger\logger.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\guards\auth.guard.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\interceptors\error.interceptor.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\services\persistance.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\modules\layout\services\profile.service.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\utils\pipes\isEmpty.pipe.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\app\shared\utils\pipes\pipe.module.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\environments\environment.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\main.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\polyfills.ts" />
+    <TypeScriptCompile Include="ng-invoice\src\test.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56090</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56090/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

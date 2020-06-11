@@ -1,0 +1,5 @@
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Host\YTS.Host.Windows\bin\Debug\YTS.Host.Windows.exe.config
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Host\YTS.Host.Windows\bin\Debug\YTS.Host.Windows.exe
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Host\YTS.Host.Windows\bin\Debug\YTS.Host.Windows.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Host\YTS.Host.Windows\obj\Debug\YTS.Host.Windows.exe
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Host\YTS.Host.Windows\obj\Debug\YTS.Host.Windows.pdb

@@ -1,0 +1,8 @@
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\bin\Debug\YTS.Common.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\bin\Debug\YTS.Common.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\bin\Debug\YTS.Common.dll.CodeAnalysisLog.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\bin\Debug\YTS.Common.dll.lastcodeanalysissucceeded
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\obj\Debug\YTS.Common.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\obj\Debug\YTS.Common.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\obj\Debug\YTS.Common.csprojAssemblyReference.cache
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Common\YTS.Common\obj\Debug\YTS.Common.csproj.CoreCompileInputs.cache

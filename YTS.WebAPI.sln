@@ -1,0 +1,203 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.WebAPI", "Service\YTS.WebAPI\YTS.WebAPI.csproj", "{93B584ED-98B5-45C8-91CE-E4898B681491}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{29392511-1C8E-4599-932C-FB3BC5827EE9}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B1C414A0-8994-4D79-90FF-A7C7FDE15C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Data", "Data\YTS.Data\YTS.Data.csproj", "{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log", "Log", "{9C7BDC9A-DC5D-4514-84B0-8683C84842A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Log", "Log\YTS.Log\YTS.Log.csproj", "{EE65A5BF-6308-40C8-9443-485651B3FC47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{8CE4744A-A8BB-480E-8F40-CE55187DE06E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Business", "Business\YTS.Business\YTS.Business.csproj", "{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{72C5CF7F-5BE2-4950-A25D-6E1BA00A4869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Common", "Common\YTS.Common\YTS.Common.csproj", "{4248C8D6-A0AC-4D34-8075-5336C5744D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Metadata", "Data\YTS.Metadata\YTS.Metadata.csproj", "{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.ClientData", "Data\YTS.ClientData\YTS.ClientData.csproj", "{2002815D-7658-431E-93CA-F88D5E282650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{04F2A3E1-391F-40CB-AA24-0C3B998716FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{DA5447A9-466A-405E-AF7D-4F7A56998FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.WebAPI.Test", "Test\YTS.WebAPI.Test\YTS.WebAPI.Test.csproj", "{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Business.Test", "Test\YTS.Business.Test\YTS.Business.Test.csproj", "{D9903A02-179C-46BC-AB1C-4F160D2125E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.BusinessObject", "Business\YTS.BusinessObject\YTS.BusinessObject.csproj", "{022A6726-C04B-4152-9105-9346FDED1852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{6DB5DE9F-B6C1-43EC-A846-F8B1978EF86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.Host.Window", "Host\YTS.Host.Console\YTS.Host.Window.csproj", "{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS.WebAPI.Core", "Service\YTS.WebAPI.Core\YTS.WebAPI.Core.csproj", "{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Final|Any CPU = Final|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93B584ED-98B5-45C8-91CE-E4898B681491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B584ED-98B5-45C8-91CE-E4898B681491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B584ED-98B5-45C8-91CE-E4898B681491}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{93B584ED-98B5-45C8-91CE-E4898B681491}.Final|Any CPU.Build.0 = Release|Any CPU
+		{93B584ED-98B5-45C8-91CE-E4898B681491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B584ED-98B5-45C8-91CE-E4898B681491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}.Final|Any CPU.Build.0 = Release|Any CPU
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE65A5BF-6308-40C8-9443-485651B3FC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE65A5BF-6308-40C8-9443-485651B3FC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE65A5BF-6308-40C8-9443-485651B3FC47}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{EE65A5BF-6308-40C8-9443-485651B3FC47}.Final|Any CPU.Build.0 = Release|Any CPU
+		{EE65A5BF-6308-40C8-9443-485651B3FC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE65A5BF-6308-40C8-9443-485651B3FC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}.Final|Any CPU.Build.0 = Release|Any CPU
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F}.Final|Any CPU.Build.0 = Release|Any CPU
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}.Final|Any CPU.Build.0 = Release|Any CPU
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2002815D-7658-431E-93CA-F88D5E282650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2002815D-7658-431E-93CA-F88D5E282650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2002815D-7658-431E-93CA-F88D5E282650}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{2002815D-7658-431E-93CA-F88D5E282650}.Final|Any CPU.Build.0 = Release|Any CPU
+		{2002815D-7658-431E-93CA-F88D5E282650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2002815D-7658-431E-93CA-F88D5E282650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}.Final|Any CPU.Build.0 = Release|Any CPU
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0}.Final|Any CPU.Build.0 = Release|Any CPU
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022A6726-C04B-4152-9105-9346FDED1852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022A6726-C04B-4152-9105-9346FDED1852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022A6726-C04B-4152-9105-9346FDED1852}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{022A6726-C04B-4152-9105-9346FDED1852}.Final|Any CPU.Build.0 = Release|Any CPU
+		{022A6726-C04B-4152-9105-9346FDED1852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022A6726-C04B-4152-9105-9346FDED1852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}.Final|Any CPU.Build.0 = Release|Any CPU
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}.Final|Any CPU.Build.0 = Release|Any CPU
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93B584ED-98B5-45C8-91CE-E4898B681491} = {04F2A3E1-391F-40CB-AA24-0C3B998716FB}
+		{22D0F1AB-6B36-49FC-85FB-0CEF3D31ECB9} = {B1C414A0-8994-4D79-90FF-A7C7FDE15C47}
+		{EE65A5BF-6308-40C8-9443-485651B3FC47} = {9C7BDC9A-DC5D-4514-84B0-8683C84842A6}
+		{EAFCCDBC-C38D-4C0C-833D-47D1AA6055E0} = {8CE4744A-A8BB-480E-8F40-CE55187DE06E}
+		{4248C8D6-A0AC-4D34-8075-5336C5744D6F} = {72C5CF7F-5BE2-4950-A25D-6E1BA00A4869}
+		{8CE76F03-DD7A-4A4B-9864-06B810A5E44F} = {B1C414A0-8994-4D79-90FF-A7C7FDE15C47}
+		{2002815D-7658-431E-93CA-F88D5E282650} = {B1C414A0-8994-4D79-90FF-A7C7FDE15C47}
+		{C5DC5328-57B0-44C7-9E8D-BFF6A773A40C} = {DA5447A9-466A-405E-AF7D-4F7A56998FDB}
+		{D9903A02-179C-46BC-AB1C-4F160D2125E0} = {DA5447A9-466A-405E-AF7D-4F7A56998FDB}
+		{022A6726-C04B-4152-9105-9346FDED1852} = {8CE4744A-A8BB-480E-8F40-CE55187DE06E}
+		{FC456CB9-4D2A-45D8-A3B8-0A34E85F1686} = {6DB5DE9F-B6C1-43EC-A846-F8B1978EF86F}
+		{E171C078-0C3E-4B3D-A8F9-25C05F5E95A5} = {04F2A3E1-391F-40CB-AA24-0C3B998716FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02FC403A-11BF-4591-A31A-ADA5E8672831}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://yuvaatechnologies.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Service\\YTS.WebAPI\\YTS.WebAPI.csproj
+		SccProjectTopLevelParentUniqueName1 = YTS.WebAPI.sln
+		SccProjectName1 = Service/YTS.WebAPI
+		SccLocalPath1 = Service\\YTS.WebAPI
+		SccProjectUniqueName2 = Data\\YTS.Data\\YTS.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = YTS.WebAPI.sln
+		SccProjectName2 = Data/YTS.Data
+		SccLocalPath2 = Data\\YTS.Data
+		SccProjectUniqueName3 = Log\\YTS.Log\\YTS.Log.csproj
+		SccProjectTopLevelParentUniqueName3 = YTS.WebAPI.sln
+		SccProjectName3 = Log/YTS.Log
+		SccLocalPath3 = Log\\YTS.Log
+		SccProjectUniqueName4 = Business\\YTS.Business\\YTS.Business.csproj
+		SccProjectTopLevelParentUniqueName4 = YTS.WebAPI.sln
+		SccProjectName4 = Business/YTS.Business
+		SccLocalPath4 = Business\\YTS.Business
+		SccProjectUniqueName5 = Common\\YTS.Common\\YTS.Common.csproj
+		SccProjectTopLevelParentUniqueName5 = YTS.WebAPI.sln
+		SccProjectName5 = Common/YTS.Common
+		SccLocalPath5 = Common\\YTS.Common
+		SccProjectUniqueName6 = Data\\YTS.Metadata\\YTS.Metadata.csproj
+		SccProjectTopLevelParentUniqueName6 = YTS.WebAPI.sln
+		SccProjectName6 = Data/YTS.Metadata
+		SccLocalPath6 = Data\\YTS.Metadata
+		SccProjectUniqueName7 = Data\\YTS.ClientData\\YTS.ClientData.csproj
+		SccProjectTopLevelParentUniqueName7 = YTS.WebAPI.sln
+		SccProjectName7 = Data/YTS.ClientData
+		SccLocalPath7 = Data\\YTS.ClientData
+		SccProjectUniqueName8 = Test\\YTS.WebAPI.Test\\YTS.WebAPI.Test.csproj
+		SccProjectTopLevelParentUniqueName8 = YTS.WebAPI.sln
+		SccProjectName8 = Test/YTS.WebAPI.Test
+		SccLocalPath8 = Test\\YTS.WebAPI.Test
+		SccProjectUniqueName9 = Test\\YTS.Business.Test\\YTS.Business.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = YTS.WebAPI.sln
+		SccProjectName9 = Test/YTS.Business.Test
+		SccLocalPath9 = Test\\YTS.Business.Test
+		SccProjectUniqueName10 = Business\\YTS.BusinessObject\\YTS.BusinessObject.csproj
+		SccProjectTopLevelParentUniqueName10 = YTS.WebAPI.sln
+		SccProjectName10 = Business/YTS.BusinessObject
+		SccLocalPath10 = Business\\YTS.BusinessObject
+		SccProjectUniqueName11 = Service\\YTS.WebAPI.Core\\YTS.WebAPI.Core.csproj
+		SccProjectTopLevelParentUniqueName11 = YTS.WebAPI.sln
+		SccProjectName11 = Service/YTS.WebAPI.Core
+		SccLocalPath11 = Service\\YTS.WebAPI.Core
+		SccProjectUniqueName12 = Host\\YTS.Host.Console\\YTS.Host.Window.csproj
+		SccProjectTopLevelParentUniqueName12 = YTS.WebAPI.sln
+		SccProjectName12 = Host/YTS.Host.Console
+		SccLocalPath12 = Host\\YTS.Host.Console
+	EndGlobalSection
+EndGlobal

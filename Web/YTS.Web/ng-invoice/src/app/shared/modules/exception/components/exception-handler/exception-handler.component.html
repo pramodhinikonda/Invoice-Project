@@ -1,0 +1,25 @@
+<div *ngIf="data?.error" class="middle-box text-center animated fadeInDown">
+    <div>
+        <h1>{{ data?.error}}</h1>
+        <h3 class="font-bold" *ngIf="data?.error === 404">Page Not Found</h3>
+        <h3 class="font-bold" *ngIf="data?.error === 401">Unauthorized</h3>
+        <div class="error-desc" *ngIf="data?.error === 404">
+            Sorry, but the page you are looking for has not been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in our app.
+        </div>
+        <div class="error-desc" *ngIf="data?.error === 401">
+            You do not have permission to view this page using the credentials that you supplied.
+        </div>
+        <a class="btn btn-primary m-t" [routerLink]="'/'">
+            Go Home
+        </a>
+    </div>
+</div>
+<div class="error-handler" *ngIf="hasError">
+    <div>
+        <h1><i class="fa fa-meh-o" aria-hidden="true"></i>&nbsp;Sorry, Something went wrong..!</h1>
+        <p>We're working on it and we'll get it fixed as soon as possible.</p>
+        <a class="btn btn-primary m-t" [routerLink]="'/'">
+            Back to Home
+        </a>
+    </div>
+</div>

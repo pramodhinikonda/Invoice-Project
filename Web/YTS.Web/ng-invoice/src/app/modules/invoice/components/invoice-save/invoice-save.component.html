@@ -1,0 +1,36 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+  <div class="col-lg-10">
+    <h2>Create Invoice</h2>
+  </div>
+  <div class="col-lg-2">
+    <button type="button" class="btn btn-primary top-btn pull-right" (click)="backToInvoice()">Go Back</button>
+  </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+  <div class="row">
+    <div class="col-lg-12 padding-lr-10">
+      <div class="ibox float-e-margins">
+        <div class="ibox-content">
+          <div>
+            <ag-grid-angular [style.height.px]="availableWindowHeight" style="width:100%;"
+                             class="ag-theme-balham"
+                             #invoiceGrid
+                             [modules]="modules"
+                             [rowData]="invoice.items"
+                             [rowDragManaged]="true"
+                             [animateRows]="true"
+                             [singleClickEdit]="true"
+                             [stopEditingWhenGridLosesFocus]="true"
+                             [defaultColDef]="defaultColDef"
+                             (gridReady)="onGridReady($event)"
+                             (cellValueChanged)="onCellValueChanged($event)"
+                             [columnDefs]="invoiceGridColumnDef">
+            </ag-grid-angular>
+          </div>
+          <button type="button" class="btn btn-white top-btn pull-left" (click)="addLineItem()">Add Another Line</button>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

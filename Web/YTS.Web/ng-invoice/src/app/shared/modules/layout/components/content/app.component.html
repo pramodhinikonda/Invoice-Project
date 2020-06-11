@@ -1,0 +1,10 @@
+<div id="wrapper">
+  <app-side-nav *ngIf="currentUser"></app-side-nav>
+  <div id="page-wrapper" [ngClass]="{'yt-m-0-at': currentUser == undefined}" class="gray-bg dashbard-1">
+    <app-top-nav *ngIf="currentUser"></app-top-nav>
+    <div [ngClass]="{'middle-box text-center loginscreen animated fadeInDown': currentUser == undefined}">
+      <router-outlet></router-outlet>
+    </div>
+    <app-footer *ngIf="currentUser"></app-footer>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Keycloak.IdentityModel.dll.config
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Keycloak.IdentityModel.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Keycloak.IdentityModel.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\obj\Debug\Keycloak.IdentityModel.csproj.CopyComplete
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\obj\Debug\Keycloak.IdentityModel.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\obj\Debug\Keycloak.IdentityModel.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Authorization\Keycloak.IdentityModel\obj\Debug\Keycloak.IdentityModel.csprojAssemblyReference.cache

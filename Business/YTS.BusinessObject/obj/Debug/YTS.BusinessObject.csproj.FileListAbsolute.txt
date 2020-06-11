@@ -1,0 +1,6 @@
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Business\YTS.BusinessObject\bin\Debug\YTS.BusinessObject.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Business\YTS.BusinessObject\bin\Debug\YTS.BusinessObject.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Business\YTS.BusinessObject\obj\Debug\YTS.BusinessObject.dll
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Business\YTS.BusinessObject\obj\Debug\YTS.BusinessObject.pdb
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Business\YTS.BusinessObject\obj\Debug\YTS.BusinessObject.csprojAssemblyReference.cache
+D:\Projects\Yuvaa\Products\Invoice\DEVELOPMENT\Sprint - 1\Source\Business\YTS.BusinessObject\obj\Debug\YTS.BusinessObject.csproj.CoreCompileInputs.cache

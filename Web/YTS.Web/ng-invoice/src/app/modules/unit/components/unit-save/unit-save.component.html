@@ -1,0 +1,49 @@
+<div bsModal #saveModel="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="dialog-child-name">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="hideModel()"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Unit</h4>
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="unitForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label>Unit Name</label>
+            <input placeholder="Unit Name" type="text" formControlName="name" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.name.errors }" />
+            <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+              <div *ngIf="f.name.errors.required">Unit Name is required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Unit Type</label>
+            <ng-select [items]="unitTypes"
+                       bindValue="key"
+                       bindLabel="value"
+                       placeholder="Unit Type"
+                       formControlName="type">
+            </ng-select>
+            <div *ngIf="submitted && f.type.errors" class="invalid-feedback">
+              <div *ngIf="f.type.errors.required">Unit Type is required</div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>All Unit</label>
+            <ng-select [items]="allUnits"
+                       bindValue="type"
+                       bindLabel="name"
+                       placeholder="All Unit"
+                       formControlName="allUnit">
+            </ng-select>
+            <div *ngIf="submitted && f.allUnit.errors" class="invalid-feedback">
+              <div *ngIf="f.allUnit.errors.required">All Unit is required</div>
+            </div>
+          </div>
+          <div class="form-group btn-popup">
+            <button type="button" class="btn btn-white yt-mr-10" (click)="hideModel()">Close</button>
+            <button [disabled]="loading" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+  <div class="sidebar-collapse">
+    <ul class="nav metismenu" id="side-menu">
+      <li class="nav-header">
+        <div class="dropdown profile-element">
+          <span>
+            <img alt="image" class="img-circle" src="../../../../assets/css/images/profile_small.jpg" />
+          </span>
+          <a href="">
+            <span class="clear">
+              <span class="block m-t-xs">
+                <strong class="font-bold">{{currentUser.FullName | isEmpty:'Demo'}}</strong>
+              </span> <span class="text-muted text-xs block">{{currentUser.Email | isEmpty:'None'}}</span>
+            </span>
+          </a>
+        </div>
+        <div class="logo-element">
+          YN+
+        </div>
+      </li>
+      <li>
+        <a routerLink="/"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
+      </li>
+      <li>
+        <a routerLink="unit"><i class="fa fa-flask"></i> <span class="nav-label">Unit</span></a>
+      </li>
+      <li>
+        <a routerLink="contact"><i class="fa fa-phone"></i> <span class="nav-label">Contact</span></a>
+      </li>
+      <li>
+        <a routerLink="salesperson"><i class="fa fa-phone"></i> <span class="nav-label">Sales Person</span></a>
+      </li>
+      <li>
+        <a routerLink="invoice"><i class="fa fa-credit-card"></i> <span class="nav-label">Invoice</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
